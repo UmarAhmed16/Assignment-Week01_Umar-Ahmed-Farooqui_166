@@ -1,0 +1,16 @@
+add(2, 3) = 5.0
+add(2, 3, 5, 1) = 11.0
+divide(10, 2) = 5.0
+Error! cannot divide by 0
+divide(10, 0) = 0.0
+modulus(10, 3) = 1.0
+Error cannot perform modulus by zero
+modulus(10, 0) = 0.0
+power(2, 3) = 8.0
+power(5, 0) = 1.0
+average(2, 4, 6) = 4.0
+Error! cannot average zero numbers
+average() = 0.0
+maximum(4, 9, 1) = 9.0
+Error! no numbers given
+maximum() = 0.0
