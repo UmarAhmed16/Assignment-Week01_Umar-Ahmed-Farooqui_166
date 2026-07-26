@@ -1,0 +1,45 @@
+Audi: Refuelled. Fuel level = 100%.
+===Testing the Ferrari===
+Ferrari: Engine started.
+Ferrari: Driving. Speed = 30 km/h.
+Ferrari: TURBO MODE ACTIVATED! Speed = 90 km/h.
+Ferrari: Turning left.
+---- Ferrari status ----
+Engine: ON
+Speed: 90 km/h
+Gear: D
+Fuel: 79%
+Odometer: 2 km
+-----------------------------
+=== Testing the Audi ===
+Audi: Engine started.
+Audi: Driving. Speed = 20 km/h.
+Audi: Turning right.
+---- Audi status ----
+Engine: ON
+Speed: 20 km/h
+Gear: D
+Fuel: 96%
+Odometer: 1 km
+-----------------------------
+===Independence check ===
+Ferrari: Slowing down. Speed = 80 km/h.
+Ferrari slowed down, but Audi's state is untouched:
+---- Audi status ----
+Engine: ON
+Speed: 20 km/h
+Gear: D
+Fuel: 96%
+Odometer: 1 km
+-----------------------------
+=== Rule test when engine is off ===
+ParkedCar: Cannot drive, engine is off.
+ParkedCar: Cannot drive, engine is off.
+ParkedCar: Engine stopped. Speed reset to 0.
+---- ParkedCar status ----
+Engine: OFF
+Speed: 0 km/h
+Gear: P
+Fuel: 50%
+Odometer: 0 km
+-----------------------------
