@@ -8,11 +8,6 @@ public class Car {
     private String gear;         // "P" (park), "D" (drive), "R" (reverse)
     private int odometer;        // total distance driven
 
-    // ---------- Constructors ----------
-    // A constructor runs the moment "new Car(...)" is called. Its job is to
-    // build the object on the HEAP and fill in its fields. In Java, "default"
-    // does NOT mean the object is null — every field below is deliberately
-    // given a starting value, so the object is fully usable right away.
 
     // Default constructor null()
     public Car() {
