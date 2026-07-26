@@ -50,7 +50,7 @@ public class Calculator{
         return total / numbers.length;
     }
  
-    // NEW OPERATION 2: biggest number out of any amount of numbers
+    
     public double maximum(double... numbers) {
         if (numbers.length == 0) {
             System.out.println("Error! no numbers given");
