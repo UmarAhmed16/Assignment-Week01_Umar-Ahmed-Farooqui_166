@@ -5,6 +5,7 @@ public class Calculator{
     public double add(double first,double second){
         return first+second;
     }
+    // Exersize 3 example
     public double add(double... numbers) {
         double total = 0;
         for (double number : numbers) {
