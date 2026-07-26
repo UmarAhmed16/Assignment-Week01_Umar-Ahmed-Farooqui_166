@@ -1,15 +1,4 @@
-/*
- * File: Main.java
- * Purpose: Creates a Calculator object and demonstrates every operation,
- *          including a normal case and an edge case for each new one
- *          (Part B requirement).
- *
- * Stack vs Heap note (same idea as the Car demo):
- *   "calc" is a stack reference variable; "new Calculator()" creates the
- *   actual object on the heap and calc stores its address. Because
- *   Calculator has no stored attributes, every call is independent and
- *   nothing about calc's "state" changes between calls.
- */
+
 public class Main {
     public static void main(String[] args) {
 
